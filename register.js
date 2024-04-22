@@ -13,7 +13,7 @@ async function signup() {
     };
 
     try {
-        let response = await fetch("https://test3-latest-cni3.onrender.com", request);
+        let response = await fetch("https://test3-latest-cni3.onrender.com", request);//render link
         if (response.ok) {
             alert("Registration successful! You can now login.");
             location.href = "login.html";
